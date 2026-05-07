@@ -3,11 +3,10 @@ import ProductList from "./components/ProductList";
 
 const App = () => {
   const [products, setProducts] = useState([
-    { id: 1, name: "Laptop", price: 1200, inStock: true },
-    { id: 2, name: "Phone", price: 800, inStock: false },
-    { id: 3, name: "Printer", price: 150, inStock: true },
-    { id: 4, name: "Tablet", price: 600, inStock: true },
-  ]);
+  { id: 1, name: "Laptop", price: 999, inStock: true },
+  { id: 2, name: "Phone", price: 699, inStock: false },
+  { id: 3, name: "Tablet", price: 499, inStock: true }
+]);
 
   const [showInStockOnly, setShowInStockOnly] = useState(false);
 
